@@ -1,0 +1,1388 @@
+<!Doctype html>
+<html>
+   <head>
+      <script src="js/jquery-1.8.0.js"></script>
+      <script src="js/jquery.roundabout.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <link href="video-js.css" rel="stylesheet"/>
+      <script src="js/video.js"></script>
+      <script src="js/jquery.cookie.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="javascript.js"></script>
+      <title>Packt Video player</title>
+   </head>
+   <body>
+      <img class="logo" src="images/logo.png"/>
+      <div class="banner">
+         <ul id ="nav">
+            <li>
+               <div class="icon orange" style="background-position: 24px -56px;" data-horiz="24px"></div>
+               <a href="#" id="main-menu" class="navig">Main menu </a>
+            </li>
+            <li>
+               <div id="credits-icon" class="icon" style="background-position: 0px 0px;" data-horiz="0px"></div>
+               <a href="credits.html" id="credits" class="navig">Credits </a>
+            </li>
+            <li>
+               <div class="icon" style="background-position: 54px 0px;" data-horiz="54px"></div>
+               <a href="overview.html" id="course" class="navig"> Course Overview </a>
+            </li>
+            <!--<li><div class="icon" style="background-position: 54px 0px;" data-horiz="54px"></div><a href="Videos/Packt.m3u" id="playlist" class="navig"> Playlist </a></li>-->
+         </ul>
+      </div>
+      <div class="gradient">
+         <img src="images/gradient.png" style="width: 100%; background-repeat: repeat-x;">
+      </div>
+      <div id="wrapper">
+         <div class="intro">
+            <div class="inner">
+               <h1>Master Microservices with Spring Boot and Spring Cloud</h1>
+            </div>
+         </div>
+         <div class="right">
+            <div id="main_next" class="next"></div>
+         </div>
+         <div class="left">
+            <div id="main_prev" class="prev"></div>
+         </div>
+         <div class="right-bottom">
+            <div id="button-next" class="next-bottom"></div>
+         </div>
+         <div class="left-bottom">
+            <div id="button-prev" class="prev-bottom"></div>
+         </div>
+         <div class="back">
+         </div>
+         <div>
+            <div id="content-main">
+               <ul class="move">
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>Section 1: Introduction</h1>
+                     <p> In this section, you will know what the course is about, what will you learn from the and how to install the basic tools required while beginning with the course.
+                     <ul>
+                        <li> Microservices and RESTful APIs with Spring Boot and Spring Cloud - Preview</li>
+                        <li> Microservices and RESTful APIs with Spring Boot & Spring Cloud - Course Overview</li>
+                        <li> Microservices and RESTful APIs with Spring Boot & Spring Cloud - Git Repository</li>
+                        <li> Installing Basic Tools</li>
+                     </ul>
+                     </p>
+                     <div id="#content-1" class="btn btn-primary browse">Browse Videos</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>Section 2: Introduction To Web Services</h1>
+                     <p> In this section, you will learn about Web Services, types of Web Services, key terminologies and some important questions related to web services.
+                     <ul>
+                        <li> What is a Web Service?</li>
+                        <li> Important How Questions related to Web Services</li>
+                        <li> Web Services - Key Terminology</li>
+                        <li> Introduction to SOAP Web Services</li>
+                        <li> Introduction to RESTful Web Services</li>
+                        <li> SOAP vs RESTful Web Services</li>
+                     </ul>
+                     </p>
+                     <div class="btn btn-primary browse" id="#content-2">Browse Videos</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>Section 3: Restful Web Services with Spring Boot</h1>
+                     <p> In this section, you will learn how to create RESTful Web Services using Spring Boot and implementing various services within it.
+                     <ul>
+                        <li> Section Introduction - RESTful Web Services with Spring Boot</li>
+                        <li> Step 01 - Initializing a RESTful Services Project with Spring Boot</li>
+                        <li> Step 02 - Understanding the RESTful Services we would create in this course</li>
+                        <li> Step 03 - Creating a Hello World Service</li>
+                        <li> Step 04 - Enhancing the Hello World Service to return a Bean</li>
+                        <li> Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet</li>
+                        <li> Step 06 - Enhancing the Hello World Service with a Path Variable</li>
+                        <li> Step 07 - Creating User Bean and User Service</li>
+                        <li> Step 08 - Implementing GET Methods for User Resource</li>
+                        <li> Step 09 - Implementing POST Method to create User Resource</li>
+                        <li> Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location</li>
+                        <li> Step 11 - Implementing Exception Handling - 404 Resource Not Found</li>
+                        <li> Step 12 - Implementing Generic Exception Handling for all Resources</li>
+                        <li> Step 13 - Exercise: User Post Resource and Exception Handling</li>
+                        <li> Step 14 - Implementing DELETE Method to delete a User Resource</li>
+                        <li> Step 15 - Implementing Validations for RESTful Services</li>
+                        <li> Step 16 - Implementing HATEOAS for RESTful Services</li>
+                        <li> Step 17 - Overview of Advanced RESTful Service Features</li>
+                        <li> Step 18 - Internationalization for RESTful Services</li>
+                        <li> Step 19 - Content Negotiation - Implementing Support for XML</li>
+                        <li> Step 20 - Configuring Auto Generation of Swagger Documentation</li>
+                        <li> Step 21 - Introduction to Swagger Documentation Format</li>
+                        <li> Step 22 - Enhancing Swagger Documentation with Custom Annotations</li>
+                        <li> Step 23 - Monitoring APIs with Spring Boot Actuator</li>
+                        <li> Step 24 - Implementing Static Filtering for RESTful Service</li>
+                        <li> Step 25 - Implementing Dynamic Filtering for RESTful Service</li>
+                        <li> Step 26 - Versioning RESTful Services - Basic Approach with URIs</li>
+                        <li> Step 27 - Versioning RESTful Services - Header and Content Negotiation Approach</li>
+                        <li> Step 28 - Implementing Basic Authentication with Spring Security</li>
+                        <li> Step 29 - Overview of Connecting RESTful Service to JPA</li>
+                        <li> Step 30 - Creating User Entity and some test data</li>
+                        <li> Step 31 - Updating GET methods on User Resource to use JPA</li>
+                        <li> Step 32 - Updating POST and DELETE methods on User Resource to use JPA</li>
+                        <li> Step 33 - Creating Post Entity and Many to One Relationship with User Entity</li>
+                        <li> Step 34 - Implementing a GET service to retrieve all Posts of a User</li>
+                        <li> Step 35 - Implementing a POST service to create a Post for a User</li>
+                        <li> Step 36 - Richardson Maturity Model</li>
+                        <li> Step 37 - RESTful Web Services - Best Practices</li>
+                     </ul>
+                     </p>
+                     <div class="btn btn-primary browse" id="#content-3">Browse Videos</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>Section 4: Microservices with Spring Cloud</h1>
+                     <p> In this section, you will learn about using Microservices in Spring Cloud. You will learn about the challenges with Microservices, advantages of Microservice architectures, installing Git, currency conversion and exchange microservice along with many other services.
+                     <ul>
+                        <li> Section Introduction - Microservices with Spring Cloud</li>
+                        <li> Step 00 - 01 - Introduction to Microservices</li>
+                        <li> Step 00 - 02 - Challenges with Microservices</li>
+                        <li> Step 00 - 03 - Introduction to Spring Cloud</li>
+                        <li> Step 00 - 04 - Advantages of Microservices Architectures</li>
+                        <li> Step 00 - 05 - Microservice Components - Standardizing Ports and URL</li>
+                        <li> Step 01 - Part 1 - Intro to Limits Microservices and Spring Cloud Config Server</li>
+                        <li> Step 01 - Part 2 - Setting up Limits Microservices</li>
+                        <li> Step 02 - Creating a hard coded limits service</li>
+                        <li> Step 03 -Enhance limits service to get configuration from application properties</li>
+                        <li> Step 04 - Setting up Spring Cloud Config Server</li>
+                        <li> Step 05 - Installing Git</li>
+                        <li> Step 06 - Creating Local Git Repository</li>
+                        <li> Step 07 - Connect Spring Cloud Config Server to Local Git Repository</li>
+                        <li> Step 08 - Configuration for Multiple Environments in Git Repository</li>
+                        <li> Step 09 - Connect Limits Service to Spring Cloud Config Server</li>
+                        <li> Step 10 - Configuring Profiles for Limits Service</li>
+                        <li> Step 11 - A review of Spring Cloud Config Server</li>
+                        <li> Step 12 - Introduction to Currency Conversion and Currency Exchange Microservice</li>
+                        <li> Step 13 - Setting up Currency Exchange Microservices</li>
+                        <li> Step 14 - Create a simple hard coded currency exchange service</li>
+                        <li> Step 15 - Setting up Dynamic Port in the the Response</li>
+                        <li> Step 16 - Configure JPA and Initialized Data</li>
+                        <li> Step 17 - Create a JPA Repository</li>
+                        <li> Step 18 - Setting up Currency Conversion Microservices</li>
+                        <li> Step 19 - Creating a service for currency conversion</li>
+                        <li> Step 20 - Invoking Currency Exchange Microservices from Currency Conversion Micro</li>
+                        <li> Step 21 - Using Feign REST Client for Service Invocation</li>
+                        <li> Step 22 - Setting up client side load balancing with Ribbon</li>
+                        <li> Step 23 - Running client side load balancing with Ribbon</li>
+                        <li> Step 24 - Understand the need for a Naming Server</li>
+                        <li> Step 25 - Setting up Eureka Naming Server</li>
+                        <li> Step 26 - Connecting Currency Conversion Microservices to Eureka</li>
+                        <li> Step 27 - Connecting Currency Exchange Microservices to Eureka</li>
+                        <li> Step 28 - Distributing calls using Eureka and Ribbon</li>
+                        <li> Step 29 - A review of implementing Eureka, Ribbon and Feign</li>
+                        <li> Step 30 - Introduction to API Gateways</li>
+                        <li> Step 31 - Setting up Zuul API Gateway</li>
+                        <li> Step 32 - Implementing Zuul Logging Filter</li>
+                        <li> Step 33 - Executing a request through Zuul API Gateway</li>
+                        <li> Step 34 - Setting up Zuul API Gateway between Microservices invocations</li>
+                        <li> Step 35 - Introduction to Distributed Tracing</li>
+                        <li> Step 36 - Implementing Spring Cloud Sleuth</li>
+                        <li> Step 37 - Introduction to Distributed Tracing with Zipkin</li>
+                        <li> Step 38 - Installing Rabbit MQ</li>
+                        <li> Step 39 - Setting up Distributed Tracing with Zipkin</li>
+                        <li> Step 40 - Connecting Microservices to Zipkin</li>
+                        <li> Step 41 - Using Zipkin UI Dashboard to trace requests</li>
+                        <li> Step 42 - Understanding the need for Spring Cloud Bus</li>
+                        <li> Step 43 - Implementing Spring Cloud Bus</li>
+                        <li> Step 44 - Fault Tolerance with Hystrix</li>
+                        <li> FAQ 01 - Microservices Characteristics</li>
+                        <li> FAQ 02 - What do you do next?</li>
+                     </ul>
+                     </p>
+                     <div class="btn btn-primary browse" id="#content-4">Browse Videos</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>Section 5: Appendix - Introduction to Spring Boot in 10 Steps</h1>
+                     <p> This section is a supplementary section, wherein you will learn some of the basic concepts of Spring Boot.
+                     <ul>
+                        <li> 0005 - Section Introduction 04 - Introduction to Spring Boot in 10 Steps</li>
+                        <li> Step 1 : Introduction to Spring Boot - Goals and Important Features</li>
+                        <li> Step 2 : Developing Spring Applications before Spring Boot</li>
+                        <li> Step 3 : Using Spring Initializer to create a project</li>
+                        <li> Step 4 : Creating a Simple REST Controller</li>
+                        <li> Step 5: What is Spring Boot Auto Configuration?</li>
+                        <li> Step 6 : Spring Boot vs Spring vs Spring MVC</li>
+                        <li> Step 7 : Spring Boot Starter Projects - Starter Web and Starter JPA</li>
+                        <li> Step 8 : Overview of different Spring Boot Starter Projects</li>
+                        <li> Step 9 : Spring Boot Actuator</li>
+                        <li> Step 10 : Spring Boot Developer Tools</li>
+                     </ul>
+                     </p>
+                     <div class="btn btn-primary browse" id="#content-5">Browse Videos</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>Section 6: Appendix - Introduction to JPA in 10 Steps </h1>
+                     <p> This section is a supplementary section, wherein you will learn about Java Persistence API.
+                     <ul>
+                        <li> Section Introduction - Introduction to JPA in 10 Steps</li>
+                        <li> Step 1 : Object Relational Impedence Mismatch</li>
+                        <li> Step 2 : World before JPA - JDBC, Spring JDBC and myBatis</li>
+                        <li> Step 3 : Introduction to JPA</li>
+                        <li> Step 4 : Creating a JPA Project using Spring Initializr</li>
+                        <li> Step 5 : Defining a JPA Entity - User</li>
+                        <li> Step 6 : Defining a Service to manage the Entity - UserService and EntityManager</li>
+                        <li> Step 7 : Using a Command Line Runner to save the User to database.</li>
+                        <li> Step 8 : Magic of Spring Boot and In Memory Database H2</li>
+                        <li> Step 9 : Introduction to Spring Data JPA</li>
+                        <li> Step 10 : More JPA Repository : findById and findAll</li>
+                     </ul>
+                     </p>
+                     <div class="btn btn-primary browse" id="#content-6">Browse Videos</div>
+                  </li>
+               </ul>
+            </div>
+            <div class="chapter" id="content-1" style="position: relative; top: -500px; display: none;">
+               <ul class="move">
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1> 1.1 Microservices and RESTful APIs with Spring Boot and Spring Cloud</h1>
+                     <span>
+                     Introduction: Microservices and RESTful APIs with Spring Boot and Spring Cloud
+                     </span>
+                     <div id="video1_1" class="btn btn-small btn-primary watch" data-video="videos/video1_1.mp4" data-poster="images/videoImage.jpg">Watch Video</div>
+                     <a href="videos/video1_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>1.2 Microservices and RESTful APIs with Spring Boot & Spring Cloud - Course Overview</h1>
+                     <span> Introduction:Microservices and RESTful APIs with Spring Boot & Spring Cloud - Course Overview
+                     </span>
+                     <div id="video1_2"class="btn btn-small btn-primary watch" data-video="videos/video1_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video1_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>1.3 Microservices and RESTful APIs with Spring Boot & Spring Cloud - Git Repository</h1>
+                     <span> Introduction: Microservices and RESTful APIs with Spring Boot & Spring Cloud - Git Repository
+                     </span>
+                     <div id="video1_3"class="btn btn-small btn-primary watch" data-video="videos/video1_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video1_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>1.4	Installing Basic Tools</h1>
+                     <span> Introduction: Installing Basic Tools
+                     </span>
+                     <div id="video1_4"class="btn btn-small btn-primary watch" data-video="videos/video1_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video1_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+               </ul>
+            </div>
+            <div class="chapter" id="content-2" style="position: relative; top: -500px; display: none;">
+               <ul class="move">
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>2.1	What is a Web Service?</h1>
+                     <span> Introduction To Web Services: What is a Web Service?
+                     </span>
+                     <div id="video2_1"class="btn btn-small btn-primary watch" data-video="videos/video2_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video2_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>2.2 Important How Questions related to Web Services</h1>
+                     <span> Introduction To Web Services: Important How Questions related to Web Services
+                     </span>
+                     <div id="video2_2"class="btn btn-small btn-primary watch" data-video="videos/video2_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video2_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>2.3 Web Services - Key Terminology</h1>
+                     <span> Introduction To Web Services: Web Services - Key Terminology
+                     </span>
+                     <div id="video2_3"class="btn btn-small btn-primary watch" data-video="videos/video2_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video2_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>2.4 Introduction to SOAP Web Services</h1>
+                     <span> Introduction To Web Services: Introduction to SOAP Web Services
+                     </span>
+                     <div id="video2_4"class="btn btn-small btn-primary watch" data-video="videos/video2_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video2_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>2.5  Introduction to RESTful Web Services</h1>
+                     <span> Introduction To Web Services: Introduction to RESTful Web Servic
+                     </span>
+                     <div id="video2_5"class="btn btn-small btn-primary watch" data-video="videos/video2_5.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video2_5.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>2.6	SOAP vsRESTful Web Services</h1>
+                     <span> Introduction To Web Services: SOAP vsRESTful Web Services
+                     </span>
+                     <div id="video2_6"class="btn btn-small btn-primary watch" data-video="videos/video2_6.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video2_6.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+               </ul>
+            </div>
+            <div class="chapter" id="content-3" style="position: relative; top: -500px; display: none;">
+               <ul class="move">
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1> 3.1 Section Introduction - RESTful Web Services with Spring Boot</h1>
+                     <span> Restful Web Services with Spring Boot: Section Introduction - RESTful Web Services with Spring Boot
+                     </span>
+                     <div id="video3_1"class="btn btn-small btn-primary watch" data-video="videos/video3_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.2 Step 01 - Initializing a RESTful Services Project with Spring Boot</h1>
+                     <span> Restful Web Services with Spring Boot:Step 01 - Initializing a RESTful Services Project with Spring Boot
+                     </span>
+                     <div id="video3_2"class="btn btn-small btn-primary watch" data-video="videos/video3_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.3	Step 02 - Understanding the RESTful Services we would create in this course</h1>
+                     <span> Restful Web Services with Spring Boot:Step 02 - Understanding the RESTful Services we would create in this course
+                     </span>
+                     <div id="video3_3"class="btn btn-small btn-primary watch" data-video="videos/video3_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.4 Step 03 - Creating a Hello World Service</h1>
+                     <span> Restful Web Services with Spring Boot:Step 03 - Creating a Hello World Service
+                     </span>
+                     <div id="video3_4"class="btn btn-small btn-primary watch" data-video="videos/video3_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.5 Step 04 - Enhancing the Hello World Service to return a Bean</h1>
+                     <span> Restful Web Services with Spring Boot:Step 04 - Enhancing the Hello World Service to return a Bean
+                     </span>
+                     <div id="video3_5"class="btn btn-small btn-primary watch" data-video="videos/video3_5.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_5.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.6 Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet</h1>
+                     <span> Restful Web Services with Spring Boot:Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet
+                     </span>
+                     <div id="video3_6"class="btn btn-small btn-primary watch" data-video="videos/video3_6.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_6.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.7 Step 06 - Enhancing the Hello World Service with a Path Variable</h1>
+                     <span> Restful Web Services with Spring Boot:Step 06 - Enhancing the Hello World Service with a Path Variable
+                     </span>
+                     <div id="video3_7"class="btn btn-small btn-primary watch" data-video="videos/video3_7.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_7.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.8 Step 07 - Creating User Bean and User Service</h1>
+                     <span> Restful Web Services with Spring Boot:Step 07 - Creating User Bean and User Service
+                     </span>
+                     <div id="video3_8"class="btn btn-small btn-primary watch" data-video="videos/video3_8.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_8.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.9 Step 08 - Implementing GET Methods for User Resource</h1>
+                     <span> Restful Web Services with Spring Boot:Step 08 - Implementing GET Methods for User Resource
+                     </span>
+                     <div id="video3_9"class="btn btn-small btn-primary watch" data-video="videos/video3_9.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_9.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.10 Step 09 - Implementing POST Method to create User Resource</h1>
+                     <span> Restful Web Services with Spring Boot:Step 09 - Implementing POST Method to create User Resource
+                     </span>
+                     <div id="video3_10"class="btn btn-small btn-primary watch" data-video="videos/video3_10.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_10.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.11 Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location</h1>
+                     <span> Restful Web Services with Spring Boot:Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location
+                     </span>
+                     <div id="video3_11"class="btn btn-small btn-primary watch" data-video="videos/video3_11.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_11.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.12 Step 11 - Implementing Exception Handling - 404 Resource Not Found</h1>
+                     <span> Restful Web Services with Spring Boot:Step 11 - Implementing Exception Handling - 404 Resource Not Found
+                     </span>
+                     <div id="video3_12"class="btn btn-small btn-primary watch" data-video="videos/video3_12.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_12.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.13 Step 12 - Implementing Generic Exception Handling for all Resources</h1>
+                     <span> Restful Web Services with Spring Boot:Step 12 - Implementing Generic Exception Handling for all Resources
+                     </span>
+                     <div id="video3_13"class="btn btn-small btn-primary watch" data-video="videos/video3_13.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_13.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.14 Step 13 - Exercise: User Post Resource and Exception Handling</h1>
+                     <span> Restful Web Services with Spring Boot: Step 13 - Exercise: User Post Resource and Exception Handling
+                     </span>
+                     <div id="video3_14"class="btn btn-small btn-primary watch" data-video="videos/video3_14.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_14.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.15 Step 14 - Implementing DELETE Method to delete a User Resource</h1>
+                     <span> Restful Web Services with Spring Boot:Step 14 - Implementing DELETE Method to delete a User Resource
+                     </span>
+                     <div id="video3_15"class="btn btn-small btn-primary watch" data-video="videos/video3_15.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_15.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.16 Step 15 - Implementing Validations for RESTful Services</h1>
+                     <span> Restful Web Services with Spring Boot:Step 15 - Implementing Validations for RESTful Services
+                     </span>
+                     <div id="video3_16"class="btn btn-small btn-primary watch" data-video="videos/video3_16.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_16.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.17 Step 16 - Implementing HATEOAS for RESTful Services</h1>
+                     <span> Restful Web Services with Spring Boot:Step 16 - Implementing HATEOAS for RESTful Services
+                     </span>
+                     <div id="video3_17"class="btn btn-small btn-primary watch" data-video="videos/video3_17.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_17.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.18 Step 17 - Overview of Advanced RESTful Service Features </h1>
+                     <span> Restful Web Services with Spring Boot:Step 17 - Overview of Advanced RESTful Service Features
+                     </span>
+                     <div id="video3_18"class="btn btn-small btn-primary watch" data-video="videos/video3_18.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_18.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.19 Step 18 - Internationalization for RESTful Services</h1>
+                     <span> Restful Web Services with Spring Boot:Step 18 - Internationalization for RESTful Services
+                     </span>
+                     <div id="video3_19"class="btn btn-small btn-primary watch" data-video="videos/video3_19.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_19.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.20 Step 19 - Content Negotiation - Implementing Support for XML </h1>
+                     <span> Restful Web Services with Spring Boot: Step 19 - Content Negotiation - Implementing Support for XML
+                     </span>
+                     <div id="video3_20"class="btn btn-small btn-primary watch" data-video="videos/video3_20.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_20.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.21 Step 20 - Configuring Auto Generation of Swagger Documentation</h1>
+                     <span> Restful Web Services with Spring Boot: Step 20 - Configuring Auto Generation of Swagger Documentation
+                     </span>
+                     <div id="video3_21"class="btn btn-small btn-primary watch" data-video="videos/video3_21.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_21.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.22 Step 21 - Introduction to Swagger Documentation Format</h1>
+                     <span> Restful Web Services with Spring Boot: Step 21 - Introduction to Swagger Documentation Format
+                     </span>
+                     <div id="video3_22"class="btn btn-small btn-primary watch" data-video="videos/video3_22.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_22.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.23 Step 22 - Enhancing Swagger Documentation with Custom Annotations</h1>
+                     <span> Restful Web Services with Spring Boot: Step 22 - Enhancing Swagger Documentation with Custom Annotations
+                     </span>
+                     <div id="video3_23"class="btn btn-small btn-primary watch" data-video="videos/video3_23.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_23.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.24 Step 23 - Monitoring APIs with Spring Boot Actuator</h1>
+                     <span> Restful Web Services with Spring Boot: Step 23 - Monitoring APIs with Spring Boot Actuator
+                     </span>
+                     <div id="video3_24"class="btn btn-small btn-primary watch" data-video="videos/video3_24.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_24.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.25 Step 24 - Implementing Static Filtering for RESTful Service</h1>
+                     <span> Restful Web Services with Spring Boot: Step 24 - Implementing Static Filtering for RESTful Service
+                     </span>
+                     <div id="video3_25"class="btn btn-small btn-primary watch" data-video="videos/video3_25.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_25.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.26 Step 25 - Implementing Dynamic Filtering for RESTful Service</h1>
+                     <span> Restful Web Services with Spring Boot: Step 25 - Implementing Dynamic Filtering for RESTful Service
+                     </span>
+                     <div id="video3_26"class="btn btn-small btn-primary watch" data-video="videos/video3_26.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_26.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.27 Step 26 - Versioning RESTful Services - Basic Approach with URIs</h1>
+                     <span> Restful Web Services with Spring Boot: Step 26 - Versioning RESTful Services - Basic Approach with URIs
+                     </span>
+                     <div id="video3_27"class="btn btn-small btn-primary watch" data-video="videos/video3_27.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_27.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.28 Step 27 - Versioning RESTful Services - Header and Content Negotiation Approach</h1>
+                     <span> Restful Web Services with Spring Boot: Step 27 - Versioning RESTful Services - Header and Content Negotiation Approach
+                     </span>
+                     <div id="video3_28"class="btn btn-small btn-primary watch" data-video="videos/video3_28.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_28.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.29 Step 28 - Implementing Basic Authentication with Spring Security</h1>
+                     <span> Restful Web Services with Spring Boot: Step 28 - Implementing Basic Authentication with Spring Security
+                     </span>
+                     <div id="video3_29"class="btn btn-small btn-primary watch" data-video="videos/video3_29.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_29.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.30 Step 29 - Overview of Connecting RESTful Service to JPA</h1>
+                     <span> Restful Web Services with Spring Boot: Step 29 - Overview of Connecting RESTful Service to JPA
+                     </span>
+                     <div id="video3_30"class="btn btn-small btn-primary watch" data-video="videos/video3_30.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_30.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.31 Step 30 - Creating User Entity and some test data</h1>
+                     <span> Restful Web Services with Spring Boot: Step 30 - Creating User Entity and some test data
+                     </span>
+                     <div id="video3_31"class="btn btn-small btn-primary watch" data-video="videos/video3_31.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_31.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.32 Step 31 - Updating GET methods on User Resource to use JPA</h1>
+                     <span> Restful Web Services with Spring Boot: Step 31 - Updating GET methods on User Resource to use JPA
+                     </span>
+                     <div id="video3_32"class="btn btn-small btn-primary watch" data-video="videos/video3_32.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_32.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.33 Step 32 - Updating POST and DELETE methods on User Resource to use JPA</h1>
+                     <span> Restful Web Services with Spring Boot: Step 32 - Updating POST and DELETE methods on User Resource to use JPA
+                     </span>
+                     <div id="video3_33"class="btn btn-small btn-primary watch" data-video="videos/video3_33.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_33.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.34 Step 33 - Creating Post Entity and Many to One Relationship with User Entity</h1>
+                     <span> Restful Web Services with Spring Boot: Step 33 - Creating Post Entity and Many to One Relationship with User Entity
+                     </span>
+                     <div id="video3_34"class="btn btn-small btn-primary watch" data-video="videos/video3_34.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_34.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.35 Step 34 - Implementing a GET service to retrieve all Posts of a User</h1>
+                     <span> Restful Web Services with Spring Boot: Step 34 - Implementing a GET service to retrieve all Posts of a User
+                     </span>
+                     <div id="video3_35"class="btn btn-small btn-primary watch" data-video="videos/video3_35.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_35.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.36 Step 35 - Implementing a POST service to create a Post for a User</h1>
+                     <span> Restful Web Services with Spring Boot: Step 35 - Implementing a POST service to create a Post for a User
+                     </span>
+                     <div id="video3_36"class="btn btn-small btn-primary watch" data-video="videos/video3_36.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_36.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.37 Step 36 - Richardson Maturity Model</h1>
+                     <span> Restful Web Services with Spring Boot: Step 36 - Richardson Maturity Model
+                     </span>
+                     <div id="video3_37"class="btn btn-small btn-primary watch" data-video="videos/video3_37.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_37.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>3.38 Step 37 - RESTful Web Services - Best </h1>
+                     <span> Restful Web Services with Spring Boot: Step 37 - RESTful Web Services - Best
+                     </span>
+                     <div id="video3_38"class="btn btn-small btn-primary watch" data-video="videos/video3_38.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video3_38.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+               </ul>
+            </div>
+            <div class="chapter" id="content-4" style="position: relative; top: -500px; display: none;">
+               <ul class="move">
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.1	Section Introduction - Microservices with Spring Cloud</h1>
+                     <span>  Microservices with Spring Cloud: Section Introduction - Microservices with Spring Cloud
+                     </span>
+                     <div id="video4_1"class="btn btn-small btn-primary watch" data-video="videos/video4_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.2	Step 00 - 01 - Introduction to Microservices</h1>
+                     <span> Microservices with Spring Cloud: Step 00 - 01 - Introduction to Microservices
+                     </span>
+                     <div id="video4_2"class="btn btn-small btn-primary watch" data-video="videos/video4_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.3	Step 00 - 02 - Challenges with Microservices</h1>
+                     <span> Microservices with Spring Cloud: Step 00 - 02 - Challenges with Microservices
+                     </span>
+                     <div id="video4_3"class="btn btn-small btn-primary watch" data-video="videos/video4_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.4	Step 00 - 03 - Introduction to Spring Cloud</h1>
+                     <span> Microservices with Spring Cloud: Step 00 - 03 - Introduction to Spring Cloud
+                     </span>
+                     <div id="video4_4"class="btn btn-small btn-primary watch" data-video="videos/video4_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.5 Step 00 - 04 - Advantages of Microservices Architectures</h1>
+                     <span> Microservices with Spring Cloud: Step 00 - 04 - Advantages of Microservices Architectures
+                     </span>
+                     <div id="video4_5"class="btn btn-small btn-primary watch" data-video="videos/video4_5.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_5.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.6 Step 00 - 05 - Microservice Components - Standardizing Ports and URL</h1>
+                     <span> Microservices with Spring Cloud: Step 00 - 05 - Microservice Components - Standardizing Ports and URL
+                     </span>
+                     <div id="video4_6"class="btn btn-small btn-primary watch" data-video="videos/video4_6.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_6.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.7 Step 01 - Part 1 - Intro to Limits Microservice and Spring Cloud Config Server</h1>
+                     <span> Microservices with Spring Cloud: Step 01 - Part 1 - Intro to Limits Microservice and Spring Cloud Config Server
+                     </span>
+                     <div id="video4_7"class="btn btn-small btn-primary watch" data-video="videos/video4_7.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_7.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.8 Step 01 - Part 2 - Setting up Limits Microservice</h1>
+                     <span> Microservices with Spring Cloud: Step 01 - Part 2 - Setting up Limits Microservice
+                     </span>
+                     <div id="video4_8"class="btn btn-small btn-primary watch" data-video="videos/video4_8.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_8.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.9 Step 02 - Creating a hard coded limits service</h1>
+                     <span> Microservices with Spring Cloud: Step 02 - Creating a hard coded limits service
+                     </span>
+                     <div id="video4_9"class="btn btn-small btn-primary watch" data-video="videos/video4_9.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_9.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.10 Step 03 -Enhance limits service to get configuration from application properties</h1>
+                     <span> Microservices with Spring Cloud: Step 03 -Enhance limits service to get configuration from application properties
+                     </span>
+                     <div id="video4_10"class="btn btn-small btn-primary watch" data-video="videos/video4_10.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_10.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.11 Step 04 - Setting up Spring Cloud Config Server</h1>
+                     <span> Microservices with Spring Cloud: Step 04 - Setting up Spring Cloud Config Server
+                     </span>
+                     <div id="video4_11"class="btn btn-small btn-primary watch" data-video="videos/video4_11.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_11.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.12 Step 05 - Installing Git</h1>
+                     <span> Microservices with Spring Cloud: Step 05 - Installing Git
+                     </span>
+                     <div id="video4_12"class="btn btn-small btn-primary watch" data-video="videos/video4_12.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_12.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.13 Step 06 - Creating Local Git Repository</h1>
+                     <span> Microservices with Spring Cloud: Step 06 - Creating Local Git Repository
+                     </span>
+                     <div id="video4_13"class="btn btn-small btn-primary watch" data-video="videos/video4_13.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_13.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.14 Step 07 - Connect Spring Cloud Config Server to Local Git Repository</h1>
+                     <span> Microservices with Spring Cloud: Step 07 - Connect Spring Cloud Config Server to Local Git Repository
+                     </span>
+                     <div id="video4_14"class="btn btn-small btn-primary watch" data-video="videos/video4_14.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_14.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.15 Step 08 - Configuration for Multiple Environments in Git Repository</h1>
+                     <span> Microservices with Spring Cloud: Step 08 - Configuration for Multiple Environments in Git Repository
+                     </span>
+                     <div id="video4_15"class="btn btn-small btn-primary watch" data-video="videos/video4_15.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_15.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.16 Step 09 - Connect Limits Service to Spring Cloud Config Server</h1>
+                     <span> Microservices with Spring Cloud: Step 09 - Connect Limits Service to Spring Cloud Config Server
+                     </span>
+                     <div id="video4_16"class="btn btn-small btn-primary watch" data-video="videos/video4_16.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_16.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.17 Step 10 - Configuring Profiles for Limits Service</h1>
+                     <span> Microservices with Spring Cloud: Step 10 - Configuring Profiles for Limits Service
+                     </span>
+                     <div id="video4_17"class="btn btn-small btn-primary watch" data-video="videos/video4_17.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_17.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.18 Step 11 - A review of Spring Cloud Config Server</h1>
+                     <span> Microservices with Spring Cloud: Step 11 - A review of Spring Cloud Config Server
+                     </span>
+                     <div id="video4_18"class="btn btn-small btn-primary watch" data-video="videos/video4_18.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_18.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.19 Step 12 - Introduction to Currency Conversion and Currency Exchange Microservice</h1>
+                     <span> Microservices with Spring Cloud: Step 12 - Introduction to Currency Conversion and Currency Exchange Microservice
+                     </span>
+                     <div id="video4_19"class="btn btn-small btn-primary watch" data-video="videos/video4_19.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_19.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.20 Step 13 - Setting up Currency Exchange Microservice</h1>
+                     <span> Microservices with Spring Cloud: Step 13 - Setting up Currency Exchange Microservice
+                     </span>
+                     <div id="video4_20"class="btn btn-small btn-primary watch" data-video="videos/video4_20.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_20.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.21 Step 14 - Create a simple hard coded currency exchange service</h1>
+                     <span> Microservices with Spring Cloud: Step 14 - Create a simple hard coded currency exchange service
+                     </span>
+                     <div id="video4_21"class="btn btn-small btn-primary watch" data-video="videos/video4_21.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_21.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.22 Step 15 - Setting up Dynamic Port in the the Response</h1>
+                     <span> Microservices with Spring Cloud: Step 15 - Setting up Dynamic Port in the the Response
+                     </span>
+                     <div id="video4_22"class="btn btn-small btn-primary watch" data-video="videos/video4_22.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_22.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.23 Step 16 - Configure JPA and Initialized Data</h1>
+                     <span> Microservices with Spring Cloud: Step 16 - Configure JPA and Initialized Data
+                     </span>
+                     <div id="video4_23"class="btn btn-small btn-primary watch" data-video="videos/video4_23.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_23.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.24 Step 17 - Create a JPA Repository</h1>
+                     <span> Microservices with Spring Cloud: Step 17 - Create a JPA Repository
+                     </span>
+                     <div id="video4_24"class="btn btn-small btn-primary watch" data-video="videos/video4_24.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_24.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.25 Step 18 - Setting up Currency Conversion Microservice</h1>
+                     <span> Microservices with Spring Cloud: Step 18 - Setting up Currency Conversion Microservice
+                     </span>
+                     <div id="video4_25"class="btn btn-small btn-primary watch" data-video="videos/video4_25.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_25.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.26 Step 19 - Creating a service for currency conversion</h1>
+                     <span> Microservices with Spring Cloud:Step 19 - Creating a service for currency conversion
+                     </span>
+                     <div id="video4_26"class="btn btn-small btn-primary watch" data-video="videos/video4_26.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_26.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.27 Step 20 - Invoking Currency Exchange Microservice from Currency Conversion Micro</h1>
+                     <span> Microservices with Spring Cloud: Step 20 - Invoking Currency Exchange Microservice from Currency Conversion Micro
+                     </span>
+                     <div id="video4_27"class="btn btn-small btn-primary watch" data-video="videos/video4_27.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_27.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.28 Step 21 - Using Feign REST Client for Service Invocation</h1>
+                     <span> Microservices with Spring Cloud: Step 21 - Using Feign REST Client for Service Invocation
+                     </span>
+                     <div id="video4_28"class="btn btn-small btn-primary watch" data-video="videos/video4_28.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_28.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.29 Step 22 - Setting up client side load balancing with Ribbon</h1>
+                     <span> Microservices with Spring Cloud: Step 22 - Setting up client side load balancing with Ribbon
+                     </span>
+                     <div id="video4_29"class="btn btn-small btn-primary watch" data-video="videos/video4_29.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_29.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.30 Step 23 - Running client side load balancing with Ribbon</h1>
+                     <span> Microservices with Spring Cloud:Step 23 - Running client side load balancing with Ribbon
+                     </span>
+                     <div id="video4_30"class="btn btn-small btn-primary watch" data-video="videos/video4_30.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_30.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.31 Step 24 - Understand the need for a Naming Server</h1>
+                     <span> Microservices with Spring Cloud:Step 24 - Understand the need for a Naming Server
+                     </span>
+                     <div id="video4_31"class="btn btn-small btn-primary watch" data-video="videos/video4_31.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_31.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.32 Step 25 - Setting up Eureka Naming Server</h1>
+                     <span> Microservices with Spring Cloud: Step 25 - Setting up Eureka Naming Server
+                     </span>
+                     <div id="video4_32"class="btn btn-small btn-primary watch" data-video="videos/video4_32.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_32.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.33 Step 26 - Connecting Currency Conversion Microservice to Eureka</h1>
+                     <span> Microservices with Spring Cloud: Step 26 - Connecting Currency Conversion Microservice to Eureka
+                     </span>
+                     <div id="video4_33"class="btn btn-small btn-primary watch" data-video="videos/video4_33.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_33.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.34 Step 27 - Connecting Currency Exchange Microservice to Eureka</h1>
+                     <span> Microservices with Spring Cloud: Step 27 - Connecting Currency Exchange Microservice to Eureka
+                     </span>
+                     <div id="video4_34"class="btn btn-small btn-primary watch" data-video="videos/video4_34.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_34.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.35 Step 28 - Distributing calls using Eureka and Ribbon</h1>
+                     <span> Microservices with Spring Cloud: Step 28 - Distributing calls using Eureka and Ribbon
+                     </span>
+                     <div id="video4_35"class="btn btn-small btn-primary watch" data-video="videos/video4_35.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_35.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.36 Step 29 - A review of implementing Eureka, Ribbon and Feign</h1>
+                     <span> Microservices with Spring Cloud: Step 29 - A review of implementing Eureka, Ribbon and Feign
+                     </span>
+                     <div id="video4_36"class="btn btn-small btn-primary watch" data-video="videos/video4_36.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_36.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.37 Step 30 - Introduction to API Gateways</h1>
+                     <span> Microservices with Spring Cloud: Step 30 - Introduction to API Gateways
+                     </span>
+                     <div id="video4_37"class="btn btn-small btn-primary watch" data-video="videos/video4_37.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_37.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.38 Step 31 - Setting up Zuul API Gateway</h1>
+                     <span> Microservices with Spring Cloud: Step 31 - Setting up Zuul API Gateway
+                     </span>
+                     <div id="video4_38"class="btn btn-small btn-primary watch" data-video="videos/video4_38.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_38.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.39 Step 32 - Implementing ZuulLogging Filter</h1>
+                     <span> Microservices with Spring Cloud: Step 32 - Implementing ZuulLogging Filter
+                     </span>
+                     <div id="video4_39"class="btn btn-small btn-primary watch" data-video="videos/video4_39.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_39.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.40 Step 33 - Executing a request through Zuul API Gateway</h1>
+                     <span> Microservices with Spring Cloud: Step 33 - Executing a request through Zuul API Gateway
+                     </span>
+                     <div id="video4_40"class="btn btn-small btn-primary watch" data-video="videos/video4_40.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_40.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.41 Step 34 - Setting up Zuul API Gateway between microservice invocations</h1>
+                     <span> Microservices with Spring Cloud: Step 34 - Setting up Zuul API Gateway between microservice invocations
+                     </span>
+                     <div id="video4_41"class="btn btn-small btn-primary watch" data-video="videos/video4_41.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_41.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.42 Step 35 - Introduction to Distributed Tracing	</h1>
+                     <span> Microservices with Spring Cloud: Step 35 - Introduction to Distributed Tracing
+                     </span>
+                     <div id="video4_42"class="btn btn-small btn-primary watch" data-video="videos/video4_42.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_42.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.43 Step 36 - Implementing Spring Cloud Sleuth</h1>
+                     <span> Microservices with Spring Cloud: Step 36 - Implementing Spring Cloud Sleuth
+                     </span>
+                     <div id="video4_43"class="btn btn-small btn-primary watch" data-video="videos/video4_43.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_43.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.44 Step 37 - Introduction to Distributed Tracing with Zipkin</h1>
+                     <span> Microservices with Spring Cloud: Step 37 - Introduction to Distributed Tracing with Zipkin
+                     </span>
+                     <div id="video4_44"class="btn btn-small btn-primary watch" data-video="videos/video4_44.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_44.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.45 Step 38 - Installing Rabbit MQ</h1>
+                     <span> Microservices with Spring Cloud: Step 38 - Installing Rabbit MQ
+                     </span>
+                     <div id="video4_45"class="btn btn-small btn-primary watch" data-video="videos/video4_45.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_45.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.46 Step 39 - Setting up Distributed Tracing with Zipkin</h1>
+                     <span> Microservices with Spring Cloud: Step 39 - Setting up Distributed Tracing with Zipkin
+                     </span>
+                     <div id="video4_46"class="btn btn-small btn-primary watch" data-video="videos/video4_46.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_46.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.47 Step 40 - Connecting microservices to Zipkin</h1>
+                     <span> Microservices with Spring Cloud: Step 40 - Connecting microservices to Zipkin
+                     </span>
+                     <div id="video4_47"class="btn btn-small btn-primary watch" data-video="videos/video4_47.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_47.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.48 Step 41 - Using Zipkin UI Dashboard to trace requests</h1>
+                     <span> Microservices with Spring Cloud: Step 41 - Using Zipkin UI Dashboard to trace requestsC
+                     </span>
+                     <div id="video4_48"class="btn btn-small btn-primary watch" data-video="videos/video4_48.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_48.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.49 Step 42 - Understanding the need for Spring Cloud Bus</h1>
+                     <span> Microservices with Spring Cloud: Step 42 - Understanding the need for Spring Cloud Bus
+                     </span>
+                     <div id="video4_49"class="btn btn-small btn-primary watch" data-video="videos/video4_49.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_49.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.50 Step 43 - Implementing Spring Cloud Bus</h1>
+                     <span> Microservices with Spring Cloud: Step 43 - Implementing Spring Cloud Bus
+                     </span>
+                     <div id="video4_50"class="btn btn-small btn-primary watch" data-video="videos/video4_50.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_50.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.51 Step 44 - Fault Tolerance with Hystrix</h1>
+                     <span> Microservices with Spring Cloud: Step 44 - Fault Tolerance with Hystrix
+                     </span>
+                     <div id="video4_51"class="btn btn-small btn-primary watch" data-video="videos/video4_51.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_51.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.52 FAQ 01 - Microservices Characteristics</h1>
+                     <span> Microservices with Spring Cloud: FAQ 01 - Microservices Characteristics
+                     </span>
+                     <div id="video4_52"class="btn btn-small btn-primary watch" data-video="videos/video4_52.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_52.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>4.53 FAQ 02 - What do you do next?</h1>
+                     <span> Microservices with Spring Cloud: FAQ 02 - What do you do next?
+                     </span>
+                     <div id="video4_53"class="btn btn-small btn-primary watch" data-video="videos/video4_53.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video4_53.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+               </ul>
+            </div>
+            <div class="chapter" id="content-5" style="position: relative; top: -500px; display: none;">
+               <ul class="move">
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.1	0005 - Section Introduction 04 - Introduction to Spring Boot in 10 Steps</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: 0005 - Section Introduction 04 - Introduction to Spring Boot in 10 Steps
+                     </span>
+                     <div id="video5_1"class="btn btn-small btn-primary watch" data-video="videos/video5_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.2	Step 1: Introduction to Spring Boot - Goals and Important Features</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 1: Introduction to Spring Boot - Goals and Important Features
+                     </span>
+                     <div id="video5_2"class="btn btn-small btn-primary watch" data-video="videos/video5_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.3	Step 2: Developing Spring Applications before Spring Boot</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 2: Developing Spring Applications before Spring Boot
+                     </span>
+                     <div id="video5_3"class="btn btn-small btn-primary watch" data-video="videos/video5_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.4 Step 3: Using Spring Initializr to create a project</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 3: Using Spring Initializr to create a project
+                     </span>
+                     <div id="video5_4"class="btn btn-small btn-primary watch" data-video="videos/video5_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.5 Step 4: Creating a Simple REST Controller</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 4: Creating a Simple REST Controller
+                     </span>
+                     <div id="video5_5"class="btn btn-small btn-primary watch" data-video="videos/video5_5.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_5.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.6 Step 5: What is Spring Boot Auto Configuration?</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 5: What is Spring Boot Auto Configuration?
+                     </span>
+                     <div id="video5_6"class="btn btn-small btn-primary watch" data-video="videos/video5_6.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_6.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.7 Step 6: Spring Boot vs Spring vs Spring MVC</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 6: Spring Boot vs Spring vs Spring MVC
+                     </span>
+                     <div id="video5_7"class="btn btn-small btn-primary watch" data-video="videos/video5_7.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_7.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.8 Step 7: Spring Boot Starter Projects - Starter Web and Starter JPA</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 7: Spring Boot Starter Projects - Starter Web and Starter JPA
+                     </span>
+                     <div id="video5_8"class="btn btn-small btn-primary watch" data-video="videos/video5_8.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_8.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.9 Step 8: Overview of different Spring Boot Starter Projects</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 8: Overview of different Spring Boot Starter Projects
+                     </span>
+                     <div id="video5_9"class="btn btn-small btn-primary watch" data-video="videos/video5_9.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_9.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.10 Step 9: Spring Boot Actuator</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 9: Spring Boot Actuator
+                     </span>
+                     <div id="video5_10"class="btn btn-small btn-primary watch" data-video="videos/video5_10.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_10.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>5.11 Step 10: Spring Boot Developer Tools</h1>
+                     <span> Appendix - Introduction to Spring Boot in 10 Steps: Step 10: Spring Boot Developer Tools
+                     </span>
+                     <div id="video5_11"class="btn btn-small btn-primary watch" data-video="videos/video5_11.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video5_11.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+               </ul>
+            </div>
+            <div class="chapter" id="content-6" style="position: relative; top: -500px; display: none;">
+               <ul class="move">
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.1	Section Introduction - Introduction to JPA in 10 Steps</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Section Introduction - Introduction to JPA in 10 Steps
+                     </span>
+                     <div id="video6_1"class="btn btn-small btn-primary watch" data-video="videos/video6_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.2	Step 1: Object Relational Impedence Mismatch </h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 1: Object Relational Impedence Mismatch
+                     </span>
+                     <div id="video6_2"class="btn btn-small btn-primary watch" data-video="videos/video6_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.3	Step 2: World before JPA - JDBC, Spring JDBC and myBatis</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 2: World before JPA - JDBC, Spring JDBC and myBatis
+                     </span>
+                     <div id="video6_3"class="btn btn-small btn-primary watch" data-video="videos/video6_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.4 Step 3: Introduction to JPA</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 3: Introduction to JPA
+                     </span>
+                     <div id="video6_4"class="btn btn-small btn-primary watch" data-video="videos/video6_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.5 Step 4: Creating a JPA Project using Spring Initializr</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 4: Creating a JPA Project using Spring Initializr
+                     </span>
+                     <div id="video6_5"class="btn btn-small btn-primary watch" data-video="videos/video6_5.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_5.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.6 Step 5: Defining a JPA Entity – User</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 5: Defining a JPA Entity – User
+                     </span>
+                     <div id="video6_6"class="btn btn-small btn-primary watch" data-video="videos/video6_6.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_6.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.7 Step 6: Defining a Service to manage the Entity - UserService and EntityManager</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 6: Defining a Service to manage the Entity - UserService and EntityManager
+                     </span>
+                     <div id="video6_7"class="btn btn-small btn-primary watch" data-video="videos/video6_7.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_7.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.8 Step 7: Using a Command Line Runner to save the User to database.</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 7: Using a Command Line Runner to save the User to database.
+                     </span>
+                     <div id="video6_8"class="btn btn-small btn-primary watch" data-video="videos/video6_8.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_8.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.9 Step 8: Magic of Spring Boot and In Memory Database H2</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 8: Magic of Spring Boot and In Memory Database H2
+                     </span>
+                     <div id="video6_9"class="btn btn-small btn-primary watch" data-video="videos/video6_9.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_9.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.10 Step 9: Introduction to Spring Data JPA</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 9: Introduction to Spring Data JPA
+                     </span>
+                     <div id="video6_10"class="btn btn-small btn-primary watch" data-video="videos/video6_10.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_10.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+                  <li>
+                     <img src="images/image.jpg" class="image-holder"/>
+                     <h1>6.11 Step 10: More JPA Repository: findById and findAll</h1>
+                     <span> Appendix - Introduction to JPA in 10 Steps: Step 10: More JPA Repository: findById and findAll
+                     </span>
+                     <div id="video6_11"class="btn btn-small btn-primary watch" data-video="videos/video6_11.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+                     <a href="videos/video6_11.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+                     <div class="last-hidden">Last Viewed</div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div id="video-wrapper">
+            <div id="video-player" class="video">
+            </div>
+            <a href="#" id="largerqt">View Larger</a>
+            <h1></h1>
+            <span></span>
+            <a href="#" class="watch-next-video btn btn-primary  navigation" style="left: 550px;" data-next="" data-video="" data-prev="">Next</a>
+            <a href="#" class="watch-prev-video btn btn-primary  navigation" style="left: 420px;"  data-prev="" data-video="" data-poster="">Prev</a>
+            <div class="btn back-video "><strong>Close</strong>
+            </div>
+         </div>
+      </div>
+      <div class="quicktime-full">
+         <div class="full-player">
+         </div>
+      </div>
+   </body>
+</html>

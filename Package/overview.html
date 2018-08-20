@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Course Overview</title>
+      <script src="js/jquery.js"></script>
+      <script src="js/jquery.roundabout.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <link href="video-js.css" rel="stylesheet"/>
+      <script src="js/video.js"></script>
+      <script src="js/jquery.cookie.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="javascript.js"></script>
+   </head>
+   <body>
+      <div class="banner">
+         <img class="logo" src="images/logo.png"/>
+         <ul id ="nav">
+            <li>
+               <div class="icon" style="background-position: 24px 0px;" data-horiz="24px"></div>
+               <a href="index.html" id="main-menu" class="navig">Main menu </a>
+            </li>
+            <li>
+               <div id="credits-icon" class="icon" style="background-position: 0px 0px;" data-horiz="0px"></div>
+               <a href="credits.html" id="credits" class="navig">Credits </a>
+            </li>
+            <li>
+               <div class="icon orange" style="background-position: 54px -56px;" data-horiz="54px"></div>
+               <a href="overview.html" id="course" class="navig"> Course Overview </a>
+            </li>
+         </ul>
+      </div>
+      <div class="credits">
+         <h1>Master Microservices with Spring Boot and Spring Cloud</h1>
+         <h3 style="color: #FA8D11"> An awesome journey from RESTful web services to microservices with Spring Boot and Spring Cloud</h3>
+         <p>	Developing RESTful web services is fun. The combination of Spring Boot, Spring Web MVC, Spring Web Services, and JPA makes it even more fun. And it's even more fun to create Microservices. There are two parts to this course - RESTful web services and Microservices. Architectures are moving towards Microservices. RESTful web services are the first step to developing great Microservices. Spring Boot, in combination with Spring Web MVC (also called Spring REST) makes it easy to develop RESTful web services. In the first part of the course, you will learn the basics of RESTful web services developing resources for a social media application. You will learn how to implement these resources with multiple features including versioning, exception handling, documentation (Swagger), basic authentication (Spring Security), filtering, and HATEOAS. You will learn the best practices in designing RESTful web services. In this part of the course, you will be using Spring (Dependency Management), Spring MVC (or Spring REST), Spring Boot, Spring Security (Authentication and Authorization), Spring Boot Actuator (Monitoring), Swagger (Documentation), Maven (dependencies management), Eclipse (IDE), Postman (REST Services Client), and the Tomcat embedded web server. We will help you set up each one of these. In the second part of the course, you will learn the basics of Microservices. You will understand how to implement Microservices using Spring Cloud. In this part of the course, you will learn how to establish communication between Microservices, enable load balancing, and the scaling up and down of Microservices. You will also learn to centralize the configuration of Microservices with Spring Cloud config server. You will implement the Eureka naming server and distributed tracing with Spring Cloud Sleuth, and Zipkin. You will create fault-tolerant Microservices with Zipkin.
+         </p>
+         <h2 style="color: #FA8D11"> Who this course is for	</h2>
+         <p>	You want to learn how to design and develop RESTful web services with Spring Boot. You want to learn how to design and develop microservices with Spring Cloud. You want to learn step-by-step with a hands-on approach</p>
+         <h2 style="color: #FA8D11"> What you will learn from this course </h2>
+         <p>
+         <ul>
+            <li> You will learn how to develop and design RESTful web services with Spring Boot and be able to develop Microservices with Spring Boot and Spring Cloud. </li>
+            <li> You will find out how to implement exception handling, validation, HATEOAS and filtering for RESTful web services.</li>
+            <li> You will master the implementation of client-side load balancing (Ribbon), dynamic scaling (Eureka Naming Server), and an API Gateway (Zuul). </li>
+            <li> You will learn how to setup centralized Microservices configuration with Spring Cloud Config Server. </li>
+            <li> You will learn how to implement distributed tracing for Microservices with Spring Cloud Sleuth and Zipkin. </li>
+            <li> You will implement fault tolerance for Microservices with Hystrix. </li>
+            <li> You will come to understand how to version your RESTful web services and understand how to monitor RESTful services with Spring Boot Actuator. </li>
+            <li> You will understand how to document RESTful web services with Swagger and understand the best practices in designing RESTful web services, as well as how to use Spring Cloud Bus to exchange messages about Configuration updates. </li>
+            <li> Simplify communication with other Microservices using Feign REST client</li>
+         </ul>
+         </p>
+         <br>
+         <h2 style="color: #FA8D11" align="center">Table of Contents </h2>
+         <ol>
+            <li>
+               <b>Introduction</b><br>
+               <ul>
+                  <li> Microservices and RESTful APIs with Spring Boot and Spring Cloud - Preview</li>
+                  <li> Microservices and RESTful APIs with Spring Boot & Spring Cloud - Course Overview</li>
+                  <li> Microservices and RESTful APIs with Spring Boot & Spring Cloud - Git Repository</li>
+                  <li> Installing Basic Tools</li>
+               </ul>
+            </li>
+            <br>
+            <li>
+               <b>Introduction To Web Services</b><br>
+               <ul>
+                  <li> What is a Web Service?</li>
+                  <li> Important How Questions related to Web Services</li>
+                  <li> Web Services - Key Terminology</li>
+                  <li> Introduction to SOAP Web Services</li>
+                  <li> Introduction to RESTful Web Services</li>
+                  <li> SOAP vs RESTful Web Services</li>
+               </ul>
+            </li>
+            <br>
+            <li>
+               <b>Restful Web Services with Spring Boot</b><br>
+               <ul>
+                  <li> Section Introduction - RESTful Web Services with Spring Boot</li>
+                  <li> Step 01 - Initializing a RESTful Services Project with Spring Boot</li>
+                  <li> Step 02 - Understanding the RESTful Services we would create in this course</li>
+                  <li> Step 03 - Creating a Hello World Service</li>
+                  <li> Step 04 - Enhancing the Hello World Service to return a Bean</li>
+                  <li> Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet</li>
+                  <li> Step 06 - Enhancing the Hello World Service with a Path Variable</li>
+                  <li> Step 07 - Creating User Bean and User Service</li>
+                  <li> Step 08 - Implementing GET Methods for User Resource</li>
+                  <li> Step 09 - Implementing POST Method to create User Resource</li>
+                  <li> Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location</li>
+                  <li> Step 11 - Implementing Exception Handling - 404 Resource Not Found</li>
+                  <li> Step 12 - Implementing Generic Exception Handling for all Resources</li>
+                  <li> Step 13 - Exercise: User Post Resource and Exception Handling</li>
+                  <li> Step 14 - Implementing DELETE Method to delete a User Resource</li>
+                  <li> Step 15 - Implementing Validations for RESTful Services</li>
+                  <li> Step 16 - Implementing HATEOAS for RESTful Services</li>
+                  <li> Step 17 - Overview of Advanced RESTful Service Features</li>
+                  <li> Step 18 - Internationalization for RESTful Services</li>
+                  <li> Step 19 - Content Negotiation - Implementing Support for XML</li>
+                  <li> Step 20 - Configuring Auto Generation of Swagger Documentation</li>
+                  <li> Step 21 - Introduction to Swagger Documentation Format</li>
+                  <li> Step 22 - Enhancing Swagger Documentation with Custom Annotations</li>
+                  <li> Step 23 - Monitoring APIs with Spring Boot Actuator</li>
+                  <li> Step 24 - Implementing Static Filtering for RESTful Service</li>
+                  <li> Step 25 - Implementing Dynamic Filtering for RESTful Service</li>
+                  <li> Step 26 - Versioning RESTful Services - Basic Approach with URIs</li>
+                  <li> Step 27 - Versioning RESTful Services - Header and Content Negotiation Approach</li>
+                  <li> Step 28 - Implementing Basic Authentication with Spring Security</li>
+                  <li> Step 29 - Overview of Connecting RESTful Service to JPA</li>
+                  <li> Step 30 - Creating User Entity and some test data</li>
+                  <li> Step 31 - Updating GET methods on User Resource to use JPA</li>
+                  <li> Step 32 - Updating POST and DELETE methods on User Resource to use JPA</li>
+                  <li> Step 33 - Creating Post Entity and Many to One Relationship with User Entity</li>
+                  <li> Step 34 - Implementing a GET service to retrieve all Posts of a User</li>
+                  <li> Step 35 - Implementing a POST service to create a Post for a User</li>
+                  <li> Step 36 - Richardson Maturity Model</li>
+                  <li> Step 37 - RESTful Web Services - Best Practices</li>
+               </ul>
+            </li>
+            <br>
+            <li>
+               <b>Microservices with Spring Cloud</b><br>
+               <ul>
+                  <li> Section Introduction - Microservices with Spring Cloud</li>
+                  <li> Step 00 - 01 - Introduction to Microservices</li>
+                  <li> Step 00 - 02 - Challenges with Microservices</li>
+                  <li> Step 00 - 03 - Introduction to Spring Cloud</li>
+                  <li> Step 00 - 04 - Advantages of Microservices Architectures</li>
+                  <li> Step 00 - 05 - Microservice Components - Standardizing Ports and URL</li>
+                  <li> Step 01 - Part 1 - Intro to Limits Microservices and Spring Cloud Config Server</li>
+                  <li> Step 01 - Part 2 - Setting up Limits Microservices</li>
+                  <li> Step 02 - Creating a hard coded limits service</li>
+                  <li> Step 03 -Enhance limits service to get configuration from application properties</li>
+                  <li> Step 04 - Setting up Spring Cloud Config Server</li>
+                  <li> Step 05 - Installing Git</li>
+                  <li> Step 06 - Creating Local Git Repository</li>
+                  <li> Step 07 - Connect Spring Cloud Config Server to Local Git Repository</li>
+                  <li> Step 08 - Configuration for Multiple Environments in Git Repository</li>
+                  <li> Step 09 - Connect Limits Service to Spring Cloud Config Server</li>
+                  <li> Step 10 - Configuring Profiles for Limits Service</li>
+                  <li> Step 11 - A review of Spring Cloud Config Server</li>
+                  <li> Step 12 - Introduction to Currency Conversion and Currency Exchange Microservice</li>
+                  <li> Step 13 - Setting up Currency Exchange Microservices</li>
+                  <li> Step 14 - Create a simple hard coded currency exchange service</li>
+                  <li> Step 15 - Setting up Dynamic Port in the the Response</li>
+                  <li> Step 16 - Configure JPA and Initialized Data</li>
+                  <li> Step 17 - Create a JPA Repository</li>
+                  <li> Step 18 - Setting up Currency Conversion Microservices</li>
+                  <li> Step 19 - Creating a service for currency conversion</li>
+                  <li> Step 20 - Invoking Currency Exchange Microservices from Currency Conversion Micro</li>
+                  <li> Step 21 - Using Feign REST Client for Service Invocation</li>
+                  <li> Step 22 - Setting up client side load balancing with Ribbon</li>
+                  <li> Step 23 - Running client side load balancing with Ribbon</li>
+                  <li> Step 24 - Understand the need for a Naming Server</li>
+                  <li> Step 25 - Setting up Eureka Naming Server</li>
+                  <li> Step 26 - Connecting Currency Conversion Microservices to Eureka</li>
+                  <li> Step 27 - Connecting Currency Exchange Microservices to Eureka</li>
+                  <li> Step 28 - Distributing calls using Eureka and Ribbon</li>
+                  <li> Step 29 - A review of implementing Eureka, Ribbon and Feign</li>
+                  <li> Step 30 - Introduction to API Gateways</li>
+                  <li> Step 31 - Setting up Zuul API Gateway</li>
+                  <li> Step 32 - Implementing Zuul Logging Filter</li>
+                  <li> Step 33 - Executing a request through Zuul API Gateway</li>
+                  <li> Step 34 - Setting up Zuul API Gateway between Microservices invocations</li>
+                  <li> Step 35 - Introduction to Distributed Tracing</li>
+                  <li> Step 36 - Implementing Spring Cloud Sleuth</li>
+                  <li> Step 37 - Introduction to Distributed Tracing with Zipkin</li>
+                  <li> Step 38 - Installing Rabbit MQ</li>
+                  <li> Step 39 - Setting up Distributed Tracing with Zipkin</li>
+                  <li> Step 40 - Connecting Microservices to Zipkin</li>
+                  <li> Step 41 - Using Zipkin UI Dashboard to trace requests</li>
+                  <li> Step 42 - Understanding the need for Spring Cloud Bus</li>
+                  <li> Step 43 - Implementing Spring Cloud Bus</li>
+                  <li> Step 44 - Fault Tolerance with Hystrix</li>
+                  <li> FAQ 01 - Microservices Characteristics</li>
+                  <li> FAQ 02 - What do you do next?</li>
+               </ul>
+            </li>
+            <br>
+            <li>
+               <b>Appendix - Introduction to Spring Boot in 10 Steps</b><br>
+               <ul>
+                  <li> 0005 - Section Introduction 04 - Introduction to Spring Boot in 10 Steps</li>
+                  <li> Step 1 : Introduction to Spring Boot - Goals and Important Features</li>
+                  <li> Step 2 : Developing Spring Applications before Spring Boot</li>
+                  <li> Step 3 : Using Spring Initializer to create a project</li>
+                  <li> Step 4 : Creating a Simple REST Controller</li>
+                  <li> Step 5: What is Spring Boot Auto Configuration?</li>
+                  <li> Step 6 : Spring Boot vs Spring vs Spring MVC</li>
+                  <li> Step 7 : Spring Boot Starter Projects - Starter Web and Starter JPA</li>
+                  <li> Step 8 : Overview of different Spring Boot Starter Projects</li>
+                  <li> Step 9 : Spring Boot Actuator</li>
+                  <li> Step 10 : Spring Boot Developer Tools</li>
+               </ul>
+            </li>
+            <br>
+            <li>
+               <b>Appendix - Introduction to JPA in 10 Steps</b><br>
+               <ul>
+                  <li> Section Introduction - Introduction to JPA in 10 Steps</li>
+                  <li> Step 1 : Object Relational Impedence Mismatch</li>
+                  <li> Step 2 : World before JPA - JDBC, Spring JDBC and myBatis</li>
+                  <li> Step 3 : Introduction to JPA</li>
+                  <li> Step 4 : Creating a JPA Project using Spring Initializr</li>
+                  <li> Step 5 : Defining a JPA Entity - User</li>
+                  <li> Step 6 : Defining a Service to manage the Entity - UserService and EntityManager</li>
+                  <li> Step 7 : Using a Command Line Runner to save the User to database.</li>
+                  <li> Step 8 : Magic of Spring Boot and In Memory Database H2</li>
+                  <li> Step 9 : Introduction to Spring Data JPA</li>
+                  <li> Step 10 : More JPA Repository : findById and findAll</li>
+               </ul>
+            </li>
+         </ol>
+         <br>
+         <h5 style="color: #FA8D11">Copyright &copy; 2018 Packt Publishing</h5>
+         <p style="font-size:13px;">			
+            All rights reserved. No part of this course may be reproduced, stored in a retrieval 
+            system, or transmitted in any form or by any means, without the prior written 
+            permission of the publisher, except in the case of brief quotations embedded in 
+            critical articles or reviews.
+            Every effort has been made in the preparation of this course to ensure the accuracy 
+            of the information presented. However, the information contained in this course is 
+            sold without warranty, either express or implied. Neither the author, nor Packt 
+            Publishing, and its dealers and distributors will be held liable for any damages 
+            caused or alleged to be caused directly or indirectly by this course.
+            Packt Publishing has endeavored to provide trademark information about all of the 
+            companies and products mentioned in this course by the appropriate use of capitals. 
+            However, Packt Publishing cannot guarantee the accuracy of this information.
+         </p>
+         <p style="font-size:13px;">
+            Livery Place<br>
+            35 Livery Street<br>
+            Birmingham B3 2PB, UK.<br>
+            ISBN 978-1-78913-277-9
+         </p>
+         <p style="font-size:13px;">
+            <a target="blank" style="color: #FA8D11" href="http://www.packtpub.com/">www.packtpub.com</a><br>
+         </p>
+      </div>
+   </body>
+</html>
